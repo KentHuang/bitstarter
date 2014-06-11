@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
  // response.send('Hello World hows it going!')
-    response.send(str)
+ // response.send(str)
 })
 
 app.listen(app.get('port'), function() {
